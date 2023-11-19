@@ -1,0 +1,195 @@
+div.sidebar {
+    margin: 0;
+    padding-top: 0;
+    background-color: #89CFF3;    
+    width: 12%;
+    border-radius: 15px;
+    float: left;
+}
+html {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+.logo {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+img {
+    width: 100%;
+} 
+body {
+    background-color: #00A9FF;
+    display: flexbox;
+}
+    
+ul {
+    list-style: none;
+    background-color: #89CFF3;
+    padding: 0;
+    margin: 0;
+    border-radius: 15px;
+}
+   ul li{
+    height: 3em;
+    text-decoration: none;
+    display: block;
+    align-items: center;    
+}
+    
+    ul li a{
+    text-decoration: none;
+    display: block;
+    color: black;   
+    text-align: center;
+    padding-top: 15px;
+    
+}
+    ul li:hover{
+    background-color: #A0E9FF;
+    transition: 0.5s;
+    border-radius: 15px;
+}
+header{
+    margin: 0;
+    padding: 0;
+}
+div.main {
+    width: 87%;
+    background-color: #89CFF3;
+    float: right;
+    position: relative;
+    border-radius: 15px;
+    padding: 5px;
+    overflow: hidden;
+}
+div.posts-container {
+    background-color: #89CFF3;
+    float: right;
+    position: relative;
+    width: 87%;
+    border-radius: 15px;
+    margin-top: 1rem;
+    padding: 5px;
+}
+h2{
+    padding: 5px;
+}
+h3 {
+    float: right;
+    padding-right: 2%;
+}
+.postlink {
+    padding: 20px;
+    font-size: xx-large;
+    text-decoration: none;
+    color: #000;
+}
+.login-btn {
+    float: right;
+    text-decoration: none;
+    font-size: large;
+    padding: 10px;
+    color:#000;
+    font-weight: 700;
+}
+.login-reg-btn {
+    padding: 0;
+    margin: 00000;
+}
+
+
+.delete-btn {
+    float: right;
+    width: 100px;
+    height: 40px;
+    background-color: #ed4c7a;
+    border-radius: 15px;
+    position: relative;
+    border-width: 0;
+    font-size: large;
+    z-index: auto;
+}
+.delete-btn:hover {
+    background-color: #c74872;
+    transition-duration: 0.3s;
+    color: white;
+}
+/* ---------------------------login page------------------------ */
+div.login-container {
+    background-color: #89CFF3;
+    display: flex;
+    position: absolute;
+    left: 37%;
+    width: 20%;
+    border-radius: 15px;
+    padding: 15px;
+}
+.login-name {
+    border-width: 0;
+    border-radius: 15px;
+    width: 180%;
+    height: 20%;
+    margin: 0.5rem;
+}
+.login-pass {
+    border-width: 0;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    height: 20%;
+    margin: 0.5rem;
+    width: 180%;
+
+}
+.login-submit {
+    border-width: 0;
+    border-radius: 15px;
+    width: 180%;
+    height: 20%;
+    margin: 0.5rem;
+    margin-bottom: 5rem;
+}
+
+/* ---------------------------end login page------------------------ */
+/* ---------------------------register page------------------------ */
+.new-container {
+    background-color: #89CFF3;
+    display: inline-block;
+    border-radius: 15px;
+    position: absolute;
+    left: 37%;
+    width: 35%;
+    align-content: center;
+    padding: 1rem;
+    overflow: hidden;
+}
+.registerfield{
+    width: 90%;
+    height: 3rem;
+    border-width: 0;
+    margin: 0.5rem;
+
+    border-radius: 15px;
+}
+.reg-submit {
+    align-items: center;
+    align-self: center;
+    position: absolute;
+    left: 37%;
+    width: 25%;
+    height: 2rem;
+    background-color: #00A9FF;
+    border-width: 0;
+    border-radius: 15px;
+    transition-duration: .5s;
+}
+.reg-submit:hover {
+    background-color: white;
+    border-radius: 0;
+    transition-duration: .5s;
+}
+
+
+/* ---------------------------end register page------------------------ */
+/* ---------------------------restore page------------------------ */
